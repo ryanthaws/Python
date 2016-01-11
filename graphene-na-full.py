@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# Uses a singular value decomposition to find a representative best fit plane for a collection of 3D points
+# It then computes the elctrostatic potential and field from an ion from an ensemble taken from a gromacs 
+# molecular dynamics trajectory.
 import numpy as np
 import scipy as sp
 
